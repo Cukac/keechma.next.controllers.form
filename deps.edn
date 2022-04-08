@@ -2,10 +2,10 @@
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
         org.clojure/clojurescript {:mvn/version "1.10.866"}
         org.clojure/core.async {:mvn/version "0.7.559"}
-        medley/medley {:mvn/version "1.2.0"}
-        keechma/pipelines {:mvn/version "0.1.0"}
+        medley/medley {:mvn/version "1.4.0"}
+        keechma/pipelines {:mvn/version "0.1.1"}
         keechma/forms {:mvn/version "0.1.7"}
         keechma/malli-forms {:git/url "https://github.com/keechma/keechma-malli-forms"
                              :sha "87f8718741a9d33c00f35dbb403dbab25153acb8"}
         Cukac/keechma.next.helix {:git/url "https://github.com/Cukac/keechma.next.helix"
-                                  :sha "f70e6f074a049c02f13a47355d0f861014d7afc8"}}}
+                                  :sha "5d7b49a41f8bce3cd6ec60f5ceeb4c0244197d08"}}}
