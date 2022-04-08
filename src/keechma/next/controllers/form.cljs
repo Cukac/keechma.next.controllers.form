@@ -1,10 +1,10 @@
 (ns keechma.next.controllers.form
-  (:require [keechma.pipelines.core :as pp :refer-macros [pipeline!]]
-            [clojure.set :as set]
+  (:require [clojure.set :as set]
+            [medley.core :refer [dissoc-in]]
             [forms.util :refer [key-to-path]]
             [forms.dirty :refer [calculate-dirty-fields]]
             [forms.core]
-            [medley.core :refer [dissoc-in]]))
+            [keechma.pipelines.core :as pp :refer-macros [pipeline!]]))
 
 (def form-pipeline-api-keys #{:keechma.form/submit-data
                               :keechma.form/get-data
